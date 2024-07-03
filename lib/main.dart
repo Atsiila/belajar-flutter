@@ -3,6 +3,8 @@ import 'package:myapp/row_column/column_widgetr.dart';
 import 'package:myapp/container_widget.dart';
 import 'package:myapp/row_column/row_column.dart';
 import 'package:myapp/row_column/row_widget.dart';
+import 'package:myapp/row_column/latihan.dart';
+import 'package:myapp/row_column/latihan_2.dart';
 
 void main(){
   runApp(MyApp());
@@ -19,7 +21,7 @@ const MyApp ({Key? key}): super(key: key);
           centerTitle: true,
           title: Text("Belajar Flutter"),
         ),
-        body: BelajarRowColumn(),
+        body: Tugas2(),
         ),
     );
   }
