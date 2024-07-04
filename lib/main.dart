@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:myapp/listview/list_example.dart';
+import 'package:myapp/listview/list_separated.dart';
 import 'package:myapp/row_column/column_widgetr.dart';
 import 'package:myapp/container_widget.dart';
 import 'package:myapp/row_column/row_column.dart';
@@ -23,7 +25,7 @@ const MyApp ({Key? key}): super(key: key);
           centerTitle: true,
           title: Text("Belajar Flutter"),
         ),
-        body: ListBuild(),
+        body: ListExample(),
         ),
     );
   }
