@@ -5,6 +5,8 @@ import 'package:myapp/row_column/row_column.dart';
 import 'package:myapp/row_column/row_widget.dart';
 import 'package:myapp/row_column/latihan.dart';
 import 'package:myapp/row_column/latihan_2.dart';
+import 'package:myapp/listview/list_basic.dart';
+import 'package:myapp/listview/list_builder.dart';
 
 void main(){
   runApp(MyApp());
@@ -21,7 +23,7 @@ const MyApp ({Key? key}): super(key: key);
           centerTitle: true,
           title: Text("Belajar Flutter"),
         ),
-        body: Tugas2(),
+        body: ListBuild(),
         ),
     );
   }
